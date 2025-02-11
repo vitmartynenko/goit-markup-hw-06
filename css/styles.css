@@ -209,7 +209,7 @@ a {
 }
 
 .mob-main-text:not(:last-child) {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mob-main-text:first-child .link {
@@ -329,7 +329,7 @@ button {
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-  /* max-width: 1440px;
+  /* max-width: 1158px;
   padding-top: 188px;
   padding-bottom: 188px; */
   max-width: 320px;
@@ -1009,6 +1009,10 @@ button {
 
   /* header */
 
+  .mob-menu {
+    display: none;
+  }
+
   .top-line .container {
     padding: 0px 16px;
   }
@@ -1160,9 +1164,9 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -1170,7 +1174,7 @@ button {
   /* header */
 
   .main-section {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 188px 0px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
